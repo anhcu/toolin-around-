@@ -120,51 +120,6 @@ _If accessing deployed Heroku application..._
 14. On an individual tool, click the tool owner's name to view all of that user's tools.
 15. Logout to end your session and close access to your toolbox.
 
-<!-- _Homepage (Logged out):_
-
-![desktop view of logged out toolin' around homepage](https://github.com/merewall/Toolin-Around/blob/main/public/images/homepage.PNG)
-
-_Mobile Homepage (Logged In):_
-
-![mobile view of logged in toolin' around homepage](https://github.com/merewall/Toolin-Around/blob/main/public/images/homepage-mobile.PNG)
-
-_Login or Create Account page:_
-
-![login or signup page](https://github.com/merewall/Toolin-Around/blob/main/public/images/login.PNG)
-
-_Tools by category:_
-![list of automotive tools in the neighborhood](https://github.com/merewall/Toolin-Around/blob/main/public/images/tools-by-category.PNG)
-
-_Single tool:_
-![diagnostic scanner tool with description, category icon, owner of Tom Hiddleston, and a request to borrow button](https://github.com/merewall/Toolin-Around/blob/main/public/images/tool-by-id.PNG)
-
-_Tools by one user:_
-![list of all of Tom Hiddleston's tools](https://github.com/merewall/Toolin-Around/blob/main/public/images/user.PNG)
-
-_My Toolbox_:_
-
-![user dashboard page with list of user's tools](https://github.com/merewall/Toolin-Around/blob/main/public/images/toolbox.PNG)
-
-_Create tool page:_
-
-![create tool form](https://github.com/merewall/Toolin-Around/blob/main/public/images/create-tool.PNG)
-
-_Update tool form:_
-
-![edit tool form](https://github.com/merewall/Toolin-Around/blob/main/public/images/edit-tool.PNG)
-
-_Tools by neighborhood:_
-![list of all tools in the neighborhood](https://github.com/merewall/Toolin-Around/blob/main/public/images/neighborhood.PNG)
-
-_Tools by search:_
-![list of all tools returned for search of cut](https://github.com/merewall/Toolin-Around/blob/main/public/images/search.PNG)
-
-_Welcome email:_
-![automated welcome email](/public/images/welcome-email.PNG)
-
-_Tool requested email:_
-![automated request email](/public/images/tool-request.PNG) -->
-
 ## Technologies
 * JavaScript
 * Node.js
