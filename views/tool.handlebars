@@ -1,0 +1,41 @@
+<!-- RENDERING SINGLE TOOL PAGE W/ CATEGORY ICON, TOOL NAME, TOOL DESCRIPTION, CLICKABLE OWNER NAME -->
+<section>
+  <div class="row">
+      <h4 class="col s12 l7 tool-name"><span style="font-size: 1em">
+          <i class="{{tool.category.class}}"></i>
+        </span>{{tool.name}}</h4>
+      <p class="col s12 p-size">{{tool.description}}</p>
+      <!-- SHOW CLICKABLE TOOL OWNER IF NOT THE USER'S TOOL -->
+      {{#unless user_tool}}
+      <div class="center" id="tool-owner-div">
+        <p class="col s12 p-size">Owner: <a href="/user/{{tool.user.id}}">{{tool.user.name}}</a></p>
+      </div>
+      {{/unless}}
+
+      <div class="col s12"> 
+        <input type='hidden' name="tool-id" value="{{tool.id}}">
+        <!-- EDIT/DELETE BUTTONS IF IT'S THE USER'S TOOL -->
+        {{#if user_tool}}
+        <div class="center" id="delete-edit-div">
+          <form class="delete-tool" id="delete-tool-form">
+            <button class="btn btn-primary indigo darken-4" type="submit"><i class="material-icons" data-id="{{id}}">delete</i></button>
+          </form>
+          <a href="/update-tool/{{tool.id}}" class="white-text btn btn-primary indigo darken-4"><i class="material-icons">edit</i></a>
+        </div>
+        {{else}}
+        <!-- OTHERWISE, A REQUEST TO BORROW BUTTON IF NOT USER'S TOOL -->
+        <div id="borrow-btn-div" class="center">
+          <button id="borrow" class="btn btn-primary indigo darken-4"><i class="material-icons">email</i> request to borrow tool</button>
+        </div>
+        {{/if}}
+      </div>
+  </div>
+</section> 
+
+<!-- IF IT'S THE USER'S TOOL, LINK TO JAVASCRIPT FOR EDIT & DELETE BUTTON HANDLING -->
+{{#if user_tool}}
+<script src="/js/deleteTool.js"></script>
+{{else}}
+<!-- IF IT'S NOT THE USER'S TOOL, LINK TO JAVASCRIPT FOR REQUEST TO BORROW BUTTON HANDLING -->
+<script src="/js/borrowTool.js"></script>
+{{/if}}

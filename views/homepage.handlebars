@@ -1,0 +1,23 @@
+<!-- HOMEPAGE WELCOME // SHOWS USER NAME WHEN LOGGED IN -->
+{{#if logged_in}}
+<h3 class="amber lighten-4 center rounded welcome">Welcome,<br class="hide-on-med-and-up"> {{user_name}}!</h3>
+{{else}}
+<h3 class="amber lighten-4 center rounded welcome">Welcome!</h3>
+{{/if}}
+<!-- WHEN LOGGED IN, SHOW ALL CATEGORIES -->
+<div class="row amber lighten-4 rounded">
+  {{#if logged_in}}
+    {{#each categories as |category|}}
+    {{> category-details}}
+    {{/each}}
+  {{else}}
+  <!-- OTHERWISE, SHOW SITE INTRO -->
+  <p class="padded home-p">Welcome to Toolin' Around! Here you can post tools that you have available for your neighbors to borrow, and you can request to borrow tools from your neighbors.</p>
+  <p class="padded home-p">When you sign up, please select your neighborhood to find local tools in your area! <br>(And don't worry, more neighborhoods will be added soon.)</p>
+  <p class="padded home-p">We hope this site will help you find exactly the tools you need, neighbor-to-neighbor.</p>
+  {{/if}}
+</div>
+
+
+
+

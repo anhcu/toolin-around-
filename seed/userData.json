@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Chris Hemsworth",
+    "email": "Thor@hotmail.com",
+    "password": "password12345"
+  },
+  {
+      "name": "Jessica Alba",
+      "email": "FantasticFour@aol.com",
+      "password": "password12345"
+  },
+  {
+    "name": "Robert Downey Jr.",
+    "email": "IronMan@gmail.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Scarlett Johansson",
+    "email": "BlackWidow@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Tom Hiddleston",
+    "email": "Loki@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Chris Evans",
+    "email": "CaptainAmerica@aol.com",
+    "password": "password12345"
+  },
+  {
+    "name": "Tom Holland",
+    "email": "Spiderman@aol.com",
+    "password": "password12345"
+  }
+]

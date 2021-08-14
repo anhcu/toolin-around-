@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Diagnostic Scanner",
+    "description": "Code reader for diagnosing auto issues",
+    "category_id": 1
+  },
+  {
+    "name": "Car Ramp",
+    "description": "Ramp used to create clearance for repairs under a vehicle",
+    "category_id": 1
+  },
+  {
+    "name": "Jumper Cables",
+    "description": "20-foot cables to jumpstart a dead battery",
+    "category_id": 1
+  },
+  {
+    "name": "Oil Change Kit",
+    "description": "oil drain pan, filter, filter wrench set, wrench set, and gloves",
+    "category_id": 1
+  },
+  {
+    "name": "Car Jack",
+    "description": "2-ton hydraulic floor jack",
+    "category_id": 1
+  },
+  {
+    "name": "Huskey Wrench Set",
+    "description": "20-piece combination set",
+    "category_id": 2
+  },
+  {
+    "name": "Milwaukee Socket Set",
+    "description": "3/8-in Deep Well 6-point socket set (11-piece) and 3/8-in drive ratchet",
+    "category_id": 2
+  },
+  {
+    "name": "Dewalt Hack Saw",
+    "description": "12-in high-tension hack saw with 10-in mini hack saw for cutting metal and plastic",
+    "category_id": 2
+  },
+  {
+    "name": "Leatherman Multitool",
+    "description": "17 essential tools in one",
+    "category_id": 2
+  },
+  {
+    "name": "Husky Hex Key Set",
+    "description": "Long arm hex keys, 26-piece",
+    "category_id": 2
+  },
+  {
+    "name": "Stanley Screwdriver",
+    "description": "#2 6-in Phillips screwdriver",
+    "category_id": 2
+  },
+  {
+    "name": "Bosch Laser Level",
+    "description": "self-leveling with hard carrying case",
+    "category_id": 2
+  },
+  {
+    "name": "Dewalt Clamp Set",
+    "description": "2 medium trigger clamps with 100lbs clamping force & 2 large with 300lb clamping force",
+    "category_id": 2
+  },
+  {
+    "name": "Arrow Staple Gun",
+    "description": "T50 heavy duty staple gun that takes 5 sizes of Arrow T50 staples",
+    "category_id": 2
+  },
+  {
+    "name": "Rubber Mallet",
+    "description": "16oz rubber mallet with 11.5-in plastic handle for floor installationa and general use",
+    "category_id": 2
+  },
+  {
+    "name": "Ryobi Power Drill",
+    "description": "cordless drill with batteries, charger, bag, and 14-piece drill bit set",
+    "category_id": 3
+  },
+  {
+    "name": "Makita Hammer Drill",
+    "description": "3/4-in corded hammer drill for drilling in masonry and concrete",
+    "category_id": 3
+  },
+  {
+    "name": "Makita Circular Saw Kit",
+    "description": "cordless and brushless with batteries",
+    "category_id": 3
+  },
+  {
+    "name": "Ridgid Reciprocating Saw",
+    "description": "brushless and cordless with 1-1/4 in. stroke length",
+    "category_id": 3
+  },
+  {
+    "name": "Milwaukee Jig Saw",
+    "description": "brushless and cordless jig saw with batteries for cutting hard materials, hardwoods, and metals",
+    "category_id": 3
+  },
+  {
+    "name": "Ridgid Table Saw",
+    "description": "10-inch blade table saw and easy-set-up, foldable stand with 5000 RPM motor",
+    "category_id": 3
+  },
+  {
+    "name": "DeWalt Orbital Sander",
+    "description": "cordless, brushless 5-inch sander with batteries",
+    "category_id": 3
+  },
+  {
+    "name": "Soldering Gun Kit",
+    "description": "Weller 100W/140W dual-wattage soldering gun",
+    "category_id": 4
+  },
+  {
+    "name": "Soldering Iron",
+    "description": "cordless with 3-stop pivoting head",
+    "category_id": 4
+  },
+  {
+    "name": "Solder Flux Paste",
+    "description": "water-soluble - works on most metals except aluminum and stainless steel",
+    "category_id": 4
+  },
+  {
+    "name": "Soldering Accessory Kit",
+    "description": "universal for use with soldering irons, stations, and guns = comes with rosin flex paste, tip tinner, flux brush, and brass wire cleaner",
+    "category_id": 4
+  },
+  {
+    "name": "Bullard Hard Hat",
+    "description": "4-point suspension system for construction and everyday work environments",
+    "category_id": 5
+  },
+  {
+    "name": "LED Safety Glasses",
+    "description": "rechargeable safety glasses with flood beam",
+    "category_id": 5
+  },
+  {
+    "name": "Work Gloves",
+    "description": "Size large, dura-knit, flexible fit for use with power tools",
+    "category_id": 5
+  },
+  {
+    "name": "Earmuff Hearing Protection",
+    "description": "OSHA compliant with 24 dB noise reduction rating and bluetooth",
+    "category_id": 5
+  },
+  {
+    "name": "Ryobi Wet/Dry Vacuum",
+    "description": "18V Coordless, 6 gallon shop vac",
+    "category_id": 6
+  },
+  {
+    "name": "Ridgid Wet/Dry Vacuum",
+    "description": "12-gallon shop vac with filter, hose and accessories and 15-ft power cord",
+    "category_id": 6
+  },
+  {
+    "name": "Hi-Vis Safety Shirt",
+    "description": "size medium, long-sleeve, ANSI-class 3 rated ",
+    "category_id": 7
+  },
+  {
+    "name": "Tyvek Coverall",
+    "description": "XL coverall for working with petroleum and other chemicals",
+    "category_id": 7
+  },
+  {
+    "name": "3M Respirator",
+    "description": "for general paint projects and some solvents and pesticides, size medium, NIOSH approved: OV/P95",
+    "category_id": 7
+  },
+  {
+    "name": "Honda Gas Generator",
+    "description": "12,500/9,500W dual fuel portable generator with remote start",
+    "category_id": 8
+  },
+  {
+    "name": "Ryobi Gas Generator",
+    "description": "6,500W gasoline powered portable with CO shutdown sensor",
+    "category_id": 8
+  },
+  {
+    "name": "Wheelbarrow",
+    "description": "6 cu ft with steel handles",
+    "category_id": 9
+  },
+  {
+    "name": "Spike Aerator",
+    "description": "four 3-inch spiked manual aerator for eliminating soil compaction",
+    "category_id": 9
+  },
+  {
+    "name": "Aerator Spike Shoe",
+    "description": "3-strap sandal-style shoe for walking aeration",
+    "category_id": 9
+  },
+  {
+    "name": "Fiskars Lopper",
+    "description": "1-1/2-inch cut capacity with steel blade and handle",
+    "category_id": 9
+  },
+  {
+    "name": "Post Hole Digger",
+    "description": "steel blade with ruler markings on handle for depth measuring",
+    "category_id": 9
+  },
+  {
+    "name": "Gas Lawn Mower",
+    "description": "Honda 3-in-1 gas walk-behind push lawn power with gas and oil",
+    "category_id": 9
+  },
+  {
+    "name": "Nicholson Pruning Saw",
+    "description": "26-in, heavy-duty with silver steel blade and convace cutting edge for trimming trees, shrubs, and bushes",
+    "category_id": 9
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Automotive",
+    "class": "fas fa-car-side"
+  },
+  {
+    "name": "Hand Tools",
+    "class": "fas fa-hammer"
+  },
+  {
+    "name": "Power Tools",
+    "class": "fas fa-power-off"
+  },
+  {
+    "name": "Welding",
+    "class": "fas fa-fire"
+  },
+  {
+    "name": "Safety",
+    "class": "fas fa-hard-hat"
+  },
+  {
+    "name": "Shop Vacuums",
+    "class": "fas fa-broom"
+  },
+  {
+    "name": "Workwear",
+    "class": "fas fa-vest"
+  },
+  {
+    "name": "Outdoor Power",
+    "class": "fas fa-plug"
+  },
+  {
+    "name": "Lawn & Garden",
+    "class": "fas fa-sun"
+  }
+]

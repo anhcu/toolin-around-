@@ -1,0 +1,5 @@
+<!-- RENDERING THE TOOL-DETAILS TEMPLATE FOR EACH OF THE SELECTED USER'S TOOLS -->
+<h3 class="page-title">{{tools.0.user.name}}'s Tools</h3>
+{{#each tools as |tool|}}
+{{> tool-details}}
+{{/each}}

@@ -1,0 +1,24 @@
+<!-- RENDERING THE TOOL-DETAILS TEMPLATE FOR EACH OF THE SEARCH RESULT TOOLS -->
+
+<!-- MESSAGE TO RENDER WHEN NO RESULTS -->
+{{#if no_results}}
+  <header class="col s12">
+  </header>
+  <div class="col s12 center"> 
+    <p>No tools found for {{search}}!</p>
+  </div>
+{{/if}}
+<!-- OTHERWISE, SHOW ALL SEARCH RESULT TOOLS WITH CATEGORY ICON, TOOL NAME, OWNER NAME, AND NEIGHBORHOOD NAME -->
+<h3 class="page-title">Tools matching "{{search}}":</h3>
+{{#each tools}}
+<section>
+    <a href="/tools/{{id}}">
+        <div class="row tool-and-owner indigo-text text-darken-2">
+          <h4 class="col s12 l7 tool-name"><span style="font-size: 1em">
+          <i class="{{category.class}}"></i>
+        </span>{{name}}</h4>
+          <p class="col s12 l5 tool-owner">posted by {{user.name}} in {{user.neighborhood.name}}</p>
+        </div>
+    </a>
+</section> 
+{{/each}}

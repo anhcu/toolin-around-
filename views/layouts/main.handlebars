@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- FAVICON -->
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+   <!-- LINK TO MATERIALIZE CSS FRAMEWORK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- LINK TO MATERIALIZE ICONS -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- LINK TO CSS STYLESHEET -->
+  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://kit.fontawesome.com/c62780266b.js" crossorigin="anonymous"></script>
+  <title>Toolin' Around</title>
+</head>
+
+<body>
+
+  <!-- NAV BAR -->
+  <nav class="nav-extended">
+    <div class="nav-wrapper">
+      <ul class="right col sm12 m8 l6">
+        <!-- HOME  BUTTON -->
+        <li><a href="/"><i class="material-icons left" id="home">home</i><span class="hide-on-small-only">Home</span></a></li>
+        {{#if logged_in}}
+        <!-- USER DASHBOARD BUTTON -->
+        <li><a href="/toolbox"><i class="material-icons left" id="dashboard">person</i><span class="hide-on-small-only">My toolbox</span></a></li>
+        <!-- USER'S NEIGHBORHOOD -->
+        <li><a href="/neighborhood/{{neighborhood_name}}"><i class="material-icons left" id="dashboard">location_on</i><span class="hide-on-small-only">{{neighborhood_name}}</span></a></li>
+        <!-- LOGOUT BUTTON -->
+        <li><a id="logout" href="#"><i class="material-icons left" id="logout">lock_outline</i><span class="hide-on-small-only">Logout</span></a></li>
+        {{else}}
+        <!-- LOGIN BUTTON -->
+        <li><a href="/login"><i class="material-icons left" id="login">vpn_key</i><span class="hide-on-small-only">Login</span></a></li>
+        {{/if}}
+      </ul>
+      <!-- SEARCH BAR -->
+      {{#if logged_in}}
+      <br class="hide-on-large-only">
+      <form id="search-form" class="row">
+        <label class="col s1 indigo-text text-darken-3" id="search-label" for="search"><i class="material-icons center">search</i></label>
+        <input class="col s6 m3" type="text" placeholder="search" id="search" name="search">
+        <button type="submit" id="search-submit">Submit</button> 
+      </form>
+      {{/if}}
+    </div>
+    <!-- PAGE TITLE -->
+    <div class="nav-content center indigo darken-3">
+      <span><i id="toolbox-icon" class="fas fa-toolbox fa-3x"></i></span>
+      <span class="nav-title"><a href="/">&nbsp;Toolin' Around&nbsp;</a></span>
+      <span><i id="tools-icon" class="fas fa-tools fa-3x"></i></span>
+    </div>
+  </nav>
+
+  <!-- PAGE CONTENTS -->
+  <main>
+    <div class="container">
+    <!-- RENDER HANDLEBAR TEMPLATES -->
+    {{{ body }}}
+    </div>
+  </main>
+
+  <!-- PAGE FOOTER -->
+  <footer>
+    <div class="container center-align my-footer amber lighten-1">
+    Anh Cu
+    </div>
+  </footer>
+
+  <!-- RENDER SCRIPT FOR LOGGED IN USERS ONLY -->
+  {{#if logged_in}}
+  <script src="/js/logout.js"></script>
+  <script src="/js/search.js"></script>
+  {{/if}}
+
+  <!-- LINK TO MATERIALIZE JAVASCRIPT -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

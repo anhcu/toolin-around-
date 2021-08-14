@@ -1,0 +1,40 @@
+<!-- ADD NEW TOOL FORM -->
+<div class="amber lighten-4 rounded">
+  <h2 class="padded-form form-title">
+    Add a New Tool:
+  </h2>
+  <form class="form new-tool">
+    <div>
+      <label for="New Tool">Tool Name</label>
+      <input id="name"/>
+    </div>
+    <div>
+      <label for="Description">Description</label>
+      <input id="description"/>
+    </div>
+    <div class="input-field form-group">
+      <select id="category">
+        <option value="" disabled selected>Choose your option</option>
+        <option value="1">Automotive</option>
+        <option value="2">Hand Tools</option>
+        <option value="3">Power Tools</option>
+        <option value="4">Welding</option>
+        <option value="5">Safety</option>
+        <option value="6">Shop Vacuums</option>
+        <option value="7">Workwear</option>
+        <option value="8">Outdoor Power</option>
+        <option value="9">Lawn & Garden</option>
+      </select>
+      <label>Tool Category:</label>
+    </div>
+    <div class="form-group">
+      <button type="submit" class="btn btn-primary indigo darken-4">Add New Tool</button>
+    </div>
+  </form>
+</div>
+
+<!-- JQUERY LIBRARY FOR MATERIALIZE DROPDOWN OPTIONS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- JAVASCRIPT FOR NEW TOOL FORM HANDLING -->
+<script src="/js/newTool.js"></script> 
+

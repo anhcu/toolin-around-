@@ -1,0 +1,17 @@
+<!-- RENDERING ALL TOOLS IN A CATEGORY IN A NEIGHBORHOOD -->
+
+<!-- WHEN NO TOOLS EXIST IN THAT CATEGORY FOR THE NEIGHBORHOOD --> 
+{{#if no_tools}}
+  <header class="col s12">
+  </header>
+  <div class="col s12 center"> 
+    <p>No tools found for {{category.name}}!</p>
+  </div>
+{{/if}}
+<!-- OTHERWISE SHOW EACH TOOL WITH THE CATEGORY ICON & NAME AS A PAGE TITLE -->
+<h4 class="page-title"><span style="font-size: 1em"><i class="{{tools.0.category.class}}"></i></span>{{tools.0.category.name}}</h4>
+<div class="row">
+  {{#each tools as |tool|}}
+    {{> tool-details-no-cat}} 
+  {{/each}}
+</div>

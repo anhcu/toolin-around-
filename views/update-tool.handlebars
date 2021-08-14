@@ -1,0 +1,37 @@
+<!-- FORM TO UPDATE A TOOL -->
+<div class="amber lighten-4">
+    <h2 class="form-title padded-form">Update Tool</h2>
+    <form class="form update-tool">
+        <div>
+            <label for="name">Tool Name:</label>
+            <input type="text" id="name" value="{{tool.name}}"></input>
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <input type="text" id="description" value="{{tool.description}}"></input>
+        </div>
+        <div class="input-field form-group">
+            <select id="category">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="1">Automotive</option>
+                <option value="2">Hand Tools</option>
+                <option value="3">Power Tools</option>
+                <option value="4">Welding</option>
+                <option value="5">Safety</option>
+                <option value="6">Shop Vacuums</option>
+                <option value="7">Workwear</option>
+                <option value="8">Outdoor Power</option>
+                <option value="9">Lawn & Garden</option>
+            </select>
+            <label>Tool Category:</label>
+        </div>
+        <div>
+            <button type="submit" id="update-tool" class="btn btn-primary indigo darken-4">Update Tool</button>
+        </div>
+    </form>
+</div>
+
+<!-- JQUERY LIBRARY FOR MATERIALIZE DROPDOWN OPTIONS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- JAVASCRIPT FOR UPDATE TOOL FORM HANDLING -->
+<script src="/js/updateTool.js"></script>

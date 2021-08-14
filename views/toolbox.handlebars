@@ -1,0 +1,9 @@
+<!-- RENDERING THE TOOL-DETAILS TEMPLATE FOR EACH OF THE LOGGED IN USER'S TOOLS -->
+<h3 class="page-title">{{user_name}}'s Toolbox</h3>
+{{#each tools as |tool|}}
+{{> tool-details}}
+{{/each}}
+<!-- BUTTON TO REDIRECT TO CREATING A NEW TOOL -->
+<div class="center">
+    <button id="add-tool" class="btn btn-large indigo darken-4"><a href="/tools" class="white-text" id="new-tool">Add Tool</a></button>
+</div>
